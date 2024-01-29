@@ -9,7 +9,7 @@ int main() {
     cin >> name;
     cout << name;
     // type in string with spaces
-    string fullname;
+    string fullname = "";
     cout << "\nWhat is your fullname?\n";
     getline(std::cin, fullname);
     cout << fullname;
