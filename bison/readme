@@ -1,1 +1,3 @@
 trying out bison and flex
+flex output compile command (mac):
+clang lex.yy.c -o wc -L$(brew --prefix flex)/lib -lflx
